@@ -59,7 +59,7 @@ public class SlytherineSt extends HogwartsSt{
 
     public void compareSlytherineStHogwartsSt(SlytherineSt slytherineSt) {
         int ability1 = ability();
-        int ability2 = SlytherineSt.ability();
+        int ability2 = slytherineSt.ability();
         if (ability1 > ability2) {
             System.out.printf("Сеудент Слизарен %s стедент Слизарен лучше  name %s (% d & % d)%n ",
                     getname,

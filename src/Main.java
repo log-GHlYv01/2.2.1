@@ -18,6 +18,12 @@ public class Main {
         paluna.print();
         //celeric.print();
 
+        hary.compareGrifHogwartsSt(ron);
+        hary.compareGrifHogwartsSt(hermiona);
+        hary.compareGrifHogwartsSt(ron);
+
+
+
     }
 
     private static Grif generateGrif(String name) {

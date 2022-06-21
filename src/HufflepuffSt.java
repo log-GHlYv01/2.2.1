@@ -39,7 +39,7 @@ public class HufflepuffSt extends HogwartsSt{
 
     public void compareHufflepuffStHogwartsSt(HufflepuffSt hufflepuffSt) {
         int ability1 = ability();
-        int ability2 = HufflepuffSt.ability();
+        int ability2 = hufflepuffSt.ability();
         if (ability1 > ability2) {
             System.out.printf("Сеудент Пуфендуй %s стедент Пуфендуй лучше  name %s (% d & % d)%n ",
                     getname,
