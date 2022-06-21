@@ -49,7 +49,7 @@ public class RevencLawSt extends HogwartsSt{
 
     public void compareRevencLawStHogwartsSt(RevencLawSt revencLawSt) {
         int ability1 = ability();
-        int ability2 = RevencLawSt.ability();
+        int ability2 = revencLawSt.ability();
         if (ability1 > ability2) {
             System.out.printf("Сеудент Когтеврана %s стедент Когтеврана лучше  name %s (% d & % d)%n ",
                     getname,
@@ -73,13 +73,13 @@ public class RevencLawSt extends HogwartsSt{
         }
 
     }
-    @Override
-    public String toString() {
-        return String.format("%s, ум: %d; мудрость: %d; сообразительность: %d;творчество: %d",
-                super.toString(),
-                clewrness,
-                wisdom,
-                wit,
-                creativity);
-    }
+        @Override
+        public String toString() {
+            return String.format("%s, ум: %d; мудрость: %d; сообразительность: %d;творчество: %d",
+                    super.toString(),
+                    clewrness,
+                    wisdom,
+                    wit,
+                    creativity);
+        }
 }

@@ -41,7 +41,7 @@ public class Grif extends HogwartsSt {
 
     public void compareGrifHogwartsSt(Grif grif) {
         int ability1 = ability();
-        int ability2 = Grif.ability();
+        int ability2 = grif.ability();
         if (ability1 > ability2) {
             System.out.printf("Сеудент Гриф %s стедент Гриф лучше  name %s (% d & % d)%n ",
                     getname,
